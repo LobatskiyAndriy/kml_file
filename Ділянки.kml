@@ -1,0 +1,4214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>Тест.dmf</name>
+    <open>1</open>
+    <description><![CDATA[Created in <a href="http://www.vinmap.net">Digitals</a>]]></description>
+    <Style id="Агровиробнича_зона">
+      <LineStyle>
+        <width>3</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="IN4_Квартал">
+      <LineStyle>
+        <width>3</width>
+        <color>ff800000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="IN4_Ділянка">
+      <LineStyle>
+        <width>2</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="IN4_Угіддя">
+      <LineStyle>
+        <color>ff008000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="IN4_Суміжник">
+      <LineStyle>
+        <color>ffff0000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Поле">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Квартал">
+      <LineStyle>
+        <color>ff000080</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Участок">
+      <LineStyle>
+        <width>2</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Дорога">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Секущая_линия">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Ділянка_паювання">
+      <LineStyle>
+        <width>3</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Робоча_зона">
+      <LineStyle>
+        <width>2</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Зона_відчуження">
+      <LineStyle>
+        <color>00000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <outline>0</outline>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Рамка">
+      <LineStyle>
+        <width>5</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Точки_теодолітних_ходів">
+      <LineStyle>
+        <width>2</width>
+        <color>80000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Проектні_лінії">
+      <LineStyle>
+        <color>80ff00ff</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Лінія_ЛЕП">
+      <LineStyle>
+        <color>00000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <outline>0</outline>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Проектні_точки">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Косметичний_шар">
+      <LineStyle>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Штамп">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Таблица_длин_линий">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Штамп_опису_меж">
+      <LineStyle>
+        <color>00000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <outline>0</outline>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Штамп_умовних_позначень">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Місця_постановки_межових_знаків">
+      <LineStyle>
+        <color>00000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <outline>0</outline>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Вказівна_стрілка">
+      <LineStyle>
+        <color>00000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <outline>0</outline>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Залізобетонні_стовпи">
+      <LineStyle>
+        <color>00000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <outline>0</outline>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Лінія_теодолітного_ходу">
+      <LineStyle>
+        <width>0</width>
+        <color>00000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <outline>0</outline>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Штамп_експлікації_земельних_ділянок_1-го_поділу">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Штамп_експлікації_земельних_часток_(паїв)_№1">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Штамп_експлікації_земельних_часток_(паїв_№2)">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Штамп_експлікації_земель">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Tables">
+      <LineStyle>
+        <color>00000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <outline>0</outline>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Ліс">
+      <LineStyle>
+        <color>ff00ff00</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Точки_зйомочної_мережі">
+      <LineStyle>
+        <width>2</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Точки_окружної_межі_поля">
+      <LineStyle>
+        <width>2</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Болото">
+      <LineStyle>
+        <width>2</width>
+        <color>00000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <outline>0</outline>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Сінокіс">
+      <LineStyle>
+        <width>2</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Сад">
+      <LineStyle>
+        <width>2</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Пасовище">
+      <LineStyle>
+        <width>2</width>
+        <color>00000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <outline>0</outline>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Межевий_знак">
+      <LineStyle>
+        <width>5</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Будівля_КЖ">
+      <LineStyle>
+        <width>4</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Будівля_КН">
+      <LineStyle>
+        <width>4</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Лінії_товсті">
+      <LineStyle>
+        <width>4</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Лінії_тонкі">
+      <LineStyle>
+        <width>2</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Точка">
+      <LineStyle>
+        <color>00000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <outline>0</outline>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Будівля_Н">
+      <LineStyle>
+        <width>4</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Двір">
+      <LineStyle>
+        <width>2</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Рілля">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Перетин_коорд._сітки">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Підписи_в_штампі">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Лінії_експлікації_товсті">
+      <LineStyle>
+        <width>4</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Лінії_експлікації_тонкі">
+      <LineStyle>
+        <width>2</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Лінія_вставки_тексту">
+      <LineStyle>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Косметичний_шар_для_ліній">
+      <LineStyle>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Вымочка">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Таблицы_левой_части">
+      <LineStyle>
+        <color>00000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <outline>0</outline>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Суміжник">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Поворотний_стовп">
+      <LineStyle>
+        <color>ffff0000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Таблиця_для_підписів">
+      <LineStyle>
+        <color>00000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <outline>0</outline>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Точки_тахеометричних_ходів">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="05_Рілля">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="06_Перелоги">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="08_Сад">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="09_Виноградник">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="10_Інші_багаторічні_насадження">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="11_Сіножать">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="12_Пасовища_всього">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="13_З_усіх_пасовищ-гірські">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="14_Під_господарськими_будівлями_і_дворами">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="15_Під_господарськими_шляхами_та_прогонами">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="16_Землі,_які_перебувають_у_стадії_меліоративного_будіівництва">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="17_Землі_тимчасової_консервації">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="18_Забруднені_сільг__угіддя,_які_не_викор__у_с/г_виробн__(Всього)">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="19_У_тому_числі_техногенно_забруднені,_вкл__радіонуклідне">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="20_Інші_[забруднені]">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="23_Вкриті_лісовою_(деревин__та_чагарн_)_рослинністю_(Всього)">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="24_У_тому_числі_полезахисних_лісосмуг">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="25_У_тому_числі_інших_захисних_насаджень">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="26_Не_вкриті_лісовою_рослинністю">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="27_Інші_лісові_землі">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="28_Чагарники">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="29_Групи_лісів_(І_група)">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="30_Групи_лісів_(ІІ_група)">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="31_Для_виробництва_деревини">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="32_Для_захисної,природоохоронної_та_біологічої_мети">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="33_Для_відпочинку">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="35.1_капітальна">
+      <LineStyle>
+        <width>2</width>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="35.2_тимчасова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="35.3_прибудинкова_територія">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="36.1_капітальна">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="36.2_тимчасова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="36.3_під_спортивними_та_дитячими_майданчиками">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="36.4_під_проїздами,_проходами_та_площадками">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="36.5_прибудинкова_територія">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="37.1_капітальна_одноповерхова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="37.2_капітальна_трьох_і_більше_поверхова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="37.3_тимчасова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="37.4_під_спорудами">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="37.5_під_проїздами,_проходами_та_площадками">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="37.6_під_зеленими_насадженнями">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="37.7_під_спортивними_та_дитячими_майданчиками">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="37.8_інші">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="39_Під_торфорозробками,_які_експлуатують">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="40_Відкриті_розробки_та_кар&apos;єри,_шахти,_які_експлуатують">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="41_Інші_(відкриті_розробки_та_кар&apos;єри,шахти,_які_не_експлуатують)">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="42.1_капітальна_одноповерхова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="42.2_капітальна_трьох_і_більше_поверхова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="42.3_тимчасова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="42.4_під_спорудами">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="42.5_під_проїздами,_проходами_та_площадками">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="42.6_під_зеленими_насадженнями">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="42.7_під_спортивними_та_дитячими_майданчиками">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="42.8_інші">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="43.1_капітальна_одноповерхова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="43.2_капітальна_трьох_і_більше_поверхова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="43.3_тимчасова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="43.4_під_спорудами">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="43.5_під_проїздами,_проходами_та_площадками">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="43.6_під_зеленими_насадженнями">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="43.7_під_спортивними_та_дитячими_майданчиками">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="43.8_інші">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="44.1_капітальна_одноповерхова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="44.2_капітальна_трьох_і_більше_поверхова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="44.3_тимчасова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="44.4_під_спорудами">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="44.5_під_проїздами,_проходами_та_площадками">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="44.6_під_зеленими_насадженнями">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="44.7_під_спортивними_та_дитячими_майданчиками">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="44.8_інші">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="46_Під_дорогами">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="47_Під_залізницями">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="48_Під_аеропортами_та_відповідними_спорудами">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="49.1_капітальна_одноповерхова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="49.2_капітальна_трьох_і_більше_поверхова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="49.3_тимчасова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="49.4_під_спорудами">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="49.5_під_проїздами,_проходами_та_площадками">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="49.6_під_зеленими_насадженнями">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="49.7_під_спортивними_та_дитячими_майданчиками">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="49.8_інші">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="51_Для_видалення_відходів">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="52_Для_водозабезпечення_та_очищення_стічних_вод">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="53_Для_виробництва_та_розподілення_електроенергії">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="54.1_капітальна_одноповерхова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="54.2_капітальна_трьох_і_більше_поверхова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="54.3_тимчасова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="54.4_під_спорудами">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="54.5_під_проїздами,_проходами_та_площадками">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="54.6_під_зеленими_насадженнями">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="54.7_інші">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="56_Зелені_насадження_загального_користування">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="57.1_капітальна_одноповерхова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="57.2_капітальна_трьох_і_більше_поверхова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="57.3_тимчасова">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="57.4_під_спорудами">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="57.5_під_проїздами,_проходами_та_площадками">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="57.6_під_зеленими_насадженнями">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="57.7_під_спортивними_та_дитячими_майданчиками">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="57.8_інші">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="58_Зайнятих_поточним_будівництвом">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="59_Відведених_під_будівництво_(будівн__на_яких_не_розпочато)">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="60_Під_гідротехнічними_спорудами">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="61_Землі_вулиць,_набережних,_площ">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="62_Землі_кладовищ">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="64_Болота_верхові">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="65_Болота_низинні">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="66_Сухі_відкриті_землі_з_особливим_рослинним_покривом">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="68_Кам&apos;янисті_місця">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="69_Піски_(включаючи_пляжі)">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="70_Яри">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="71_Інші">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="73_Природними_водотоками_(річками_та_струмками)">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="74_Штучними_водотоками_(канавами,_колекторами,_канавами)">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="75_Озерами,_прибережн__замкн__водоймами,_лиманами">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="76_Ставками">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="77_Штучними_водосховищами">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="78_Природоохоронного_призначення">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="79_Оздоровчого_призначення">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="80_Рекреаційного_призначення">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="81_Історико-культурного_призначення">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="IN4_Бордюр">
+      <LineStyle>
+        <color>ff000080</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Лінія_теодолітного_ходу_(потовщена)">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Лінія_тахеометричного_ходу">
+      <LineStyle>
+        <color>80000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Arrow">
+      <LineStyle>
+        <color>ff000000</color>
+      </LineStyle>
+      <PolyStyle>
+        <fill>0</fill>
+        <color>00ffffff</color>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <ExtendedData>
+      <Data name="Довжини_ліній[N]"/>
+      <Data name="Номера_точок[N]"/>
+      <Data name="Точка"/>
+      <Data name="Шар_ID"/>
+      <Data name="Об&apos;єкт_ID"/>
+      <Data name="Шар"/>
+      <Data name="X"/>
+      <Data name="Y"/>
+      <Data name="Z"/>
+      <Data name="Периметр"/>
+      <Data name="Площа"/>
+      <Data name="Коефіцієнт_бонітету"/>
+      <Data name="Шифр_агрогрупи"/>
+      <Data name="Сума"/>
+      <Data name="НД_Номер_ділянки_паю"/>
+      <Data name="ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласникам"/>
+      <Data name="ПІБ_в_називному"/>
+      <Data name="ПІБ_в_родовому"/>
+      <Data name="ПІБ_в_давальному"/>
+      <Data name="ПІБ_(нескорочено)_в_родовому"/>
+      <Data name="ПІБ_(нескорочено)_в_давальному"/>
+      <Data name="Кількість_земельних_ділянок"/>
+      <Data name="НА_Назва_адміністрації_або_органу_місцевого_самоврядування"/>
+      <Data name="НР_Назва_адміністрації_або_органу_місцевого_самоврядування_(в_родовому)"/>
+      <Data name="Назва_органу_земельних_ресурсів"/>
+      <Data name="Назва_органу_зем_ресурс_скорочена"/>
+      <Data name="Назва_земельного_масиву"/>
+      <Data name="Підпис_тонкий"/>
+      <Data name="Підпис_невидимий"/>
+      <Data name="ЦВ_Цільове_викор-ня_для_держ.акту(згідно_Зем.Кодекса)"/>
+      <Data name="КН_Кадастровий_номер_ЗД"/>
+      <Data name="ФП_Текст(об&apos;єкт,_угіддя)"/>
+      <Data name="Площа(чиста)"/>
+      <Data name="DS_!!!Код_адміністративної_одиниці_КОАТУУ_(квартал)"/>
+      <Data name="SD_!!!Код_кадастрової_зони(квартал)"/>
+      <Data name="BC_!!!Код_кадастрового_кварталу(квартал)"/>
+      <Data name="SZ_!!!Розмірність_одиниці_виміру_площ_земельних_ділянок"/>
+      <Data name="CS_!!!Система_прямокутних_координат"/>
+      <Data name="HS_Система_висот"/>
+      <Data name="GL_Прізвище,_ім&apos;я_та_по_батькові_Голови_місцевої_влади"/>
+      <Data name="ZM_Прізвище,_ім&apos;я_та_по_батькові_інженера-землевпорядника"/>
+      <Data name="AB_Площа_(га)_кадастрового_кварталу"/>
+      <Data name="PB_Периметр_кадастрового_кварталу_(м)"/>
+      <Data name="MB_Середня_квадратична_похибка_обчислення_площі_кварталу"/>
+      <Data name="SC_Кадастровий_номер_ділянки(№_квартала+№ділянки)_7_цифр"/>
+      <Data name="AD_Адреса_земельної_ділянки"/>
+      <Data name="NM_!!!ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласн"/>
+      <Data name="TX_Опис_(характеристика)_земельної_ділянки"/>
+      <Data name="PF_!!!Код_форми_власності_згідно_(УКФВЗ)"/>
+      <Data name="VP_Частка_у_спільній_власності_в_відсотках_%"/>
+      <Data name="AU_!!!Юридична_адреса_землевласника"/>
+      <Data name="KZ_!!!Код_категорії_землекористувача_(код_рядка_за_формою_6_зем"/>
+      <Data name="FL_Реєстраційний_номер_технічної_документації_у_підрозділі_ДЗК"/>
+      <Data name="CM_Додаткова_інформація_про_ділянку_і/або_землевласника"/>
+      <Data name="TM_Грошова_оцінка_земельної_ділянки"/>
+      <Data name="EV_Відомості_про_пільги_щодо_плати_за_землю"/>
+      <Data name="KF_Ідентифікаційний_код_фізичної_особи"/>
+      <Data name="KU_Ідентифікаційний_код_юридичної_особи_(підприємства)"/>
+      <Data name="PV_Умови_та_строк_надання_земельної_ділянки"/>
+      <Data name="PZ_Підстава_набуття_права_власності_на_земельну_ділянку"/>
+      <Data name="CV_Цільове_використання_земельної_ділянки_за_(УКЦВЗ)"/>
+      <Data name="TD_Реквізити_матеріалів_техдокументації"/>
+      <Data name="PP_Паспортні_дані"/>
+      <Data name="GA_Атрибути_держакта_на_право_..."/>
+      <Data name="CI_Номер_(ID)_угіддя"/>
+      <Data name="LC_Номер_угіддя"/>
+      <Data name="CN_Код_угіддя_за_формою_6-зем"/>
+      <Data name="LM_Сервітути"/>
+      <Data name="LS_Обмеження_прав_власності"/>
+      <Data name="LE_Оренда"/>
+      <Data name="SL_Суборенда"/>
+      <Data name="MO_Застава_земельної_ділянки"/>
+      <Data name="MP_Спосіб_визначення_координат_вузлів_полігону"/>
+      <Data name="AS_Площа_(га)_земельної_ділянки"/>
+      <Data name="PS_Периметр_земельної_ділянки_(м)"/>
+      <Data name="MS_Середньоквадратична_похибка_обчислення_площі_земельної_ділян"/>
+      <Data name="AL_Площа_(га)_угіддя"/>
+      <Data name="PL_Периметр_угіддя_(м)"/>
+      <Data name="ML_СКП_обчислення_площі_угіддя"/>
+      <Data name="CR_Ознака_кадастрової_одиниці"/>
+      <Data name="AR_Площа_кад.кварталу_у_межах_бордюру_(га)"/>
+      <Data name="PR_Периметр_кад.кварталу_в_межах_бордюру_(м)"/>
+      <Data name="MR_СКП_обчислення_площі_кадастрової_одиниці"/>
+      <Data name="Пункт"/>
+      <Data name="Відносна_похибка_обчислення_площі_ділянки"/>
+      <Data name="ПД_Паспортні_дані_(коли_і_ким_виданий)"/>
+      <Data name="Дата_народження_землевласника"/>
+      <Data name="Дата_реєстрації_правовстановлюючого_документа_в_книзі_реєстрації"/>
+      <Data name="ПГ_Прізвище,_ім&apos;я_та_по_батькові_Голови_місцевої_влади"/>
+      <Data name="ПЗ_Прізвище,_ім&apos;я_та_по_батькові_інженера-землевпорядника"/>
+      <Data name="Поверховість"/>
+      <Data name="=TimeStamp"/>
+      <Data name="=TimeStamp"/>
+      <Data name="ДН_Номер_та_дата_договору"/>
+      <Data name="Площа_червона"/>
+      <Data name="Площа_зелена"/>
+      <Data name="NAME"/>
+      <Data name="КАТЕГОРІЯ_земель_за_основним_цільовим_призначенням"/>
+      <Data name="Відмітка_висоти_дна_колодязю"/>
+      <Data name="Кадастровий_номер"/>
+      <Data name="AREA"/>
+      <Data name="Тип_власності"/>
+      <Data name="Цільове_призначення"/>
+      <Data name="Площа"/>
+      <Data name="Район"/>
+      <Data name="КОАТУУ"/>
+      <Data name="Зона"/>
+      <Data name="Квартал"/>
+    </ExtendedData>
+    <Folder>
+      <name>IN4_Ділянка</name>
+      <Placemark>
+        <name>Объект ID407</name>
+        <styleUrl>#IN4_Ділянка</styleUrl>
+        <ExtendedData>
+          <Data name="~ZOrder">
+            <value>21</value>
+          </Data>
+          <Data name="#Шар">
+            <value>IN4_Ділянка</value>
+          </Data>
+          <Data name="#ПІБ_в_називному">
+            <value>Старущак С. С.</value>
+          </Data>
+          <Data name="#КН_Кадастровий_номер_ЗД">
+            <value>:::</value>
+          </Data>
+          <Data name="#NM_!!!ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласн">
+            <value>Старущак Софія Степанівна</value>
+          </Data>
+          <Data name="#CM_Додаткова_інформація_про_ділянку_і/або_землевласника">
+            <value>ПП &amp;quot;КАЧАН-07&amp;quot;</value>
+          </Data>
+          <Data name="#Кадастровий_номер">
+            <value>6123085200:01:001:1142</value>
+          </Data>
+          <Data name="#Тип_власності">
+            <value>Приватна власність</value>
+          </Data>
+          <Data name="#Цільове_призначення">
+            <value>01.01 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#Площа">
+            <value>2.138</value>
+          </Data>
+          <Data name="#Район">
+            <value>Козівський</value>
+          </Data>
+          <Data name="#КОАТУУ">
+            <value>6123085200</value>
+          </Data>
+          <Data name="#Зона">
+            <value>01</value>
+          </Data>
+          <Data name="#Квартал">
+            <value>002</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                25.0703739115465,49.39929155179933,0
+                25.07079324026428,49.40155259641288,0
+                25.07195713269994,49.40151285170851,0
+                25.07153800011337,49.39925271307917,0
+                25.0703739115465,49.39929155179933,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Объект ID365</name>
+        <styleUrl>#IN4_Ділянка</styleUrl>
+        <ExtendedData>
+          <Data name="~ZOrder">
+            <value>22</value>
+          </Data>
+          <Data name="#Шар">
+            <value>IN4_Ділянка</value>
+          </Data>
+          <Data name="#ПІБ_в_називному">
+            <value>Питель Г. М.</value>
+          </Data>
+          <Data name="#КН_Кадастровий_номер_ЗД">
+            <value>:::</value>
+          </Data>
+          <Data name="#AD_Адреса_земельної_ділянки">
+            <value>Кривенська сільська рада</value>
+          </Data>
+          <Data name="#NM_!!!ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласн">
+            <value>Питель Ганна Мирославівна</value>
+          </Data>
+          <Data name="#PF_!!!Код_форми_власності_згідно_(УКФВЗ)">
+            <value>1.1 особиста</value>
+          </Data>
+          <Data name="#VP_Частка_у_спільній_власності_в_відсотках_%">
+            <value>1/1</value>
+          </Data>
+          <Data name="#AU_!!!Юридична_адреса_землевласника">
+            <value>село Криве</value>
+          </Data>
+          <Data name="#CM_Додаткова_інформація_про_ділянку_і/або_землевласника">
+            <value>Відсутня інформація про оренду</value>
+          </Data>
+          <Data name="#TM_Грошова_оцінка_земельної_ділянки">
+            <value>100000</value>
+          </Data>
+          <Data name="#KF_Ідентифікаційний_код_фізичної_особи">
+            <value>0000000000</value>
+          </Data>
+          <Data name="#PV_Умови_та_строк_надання_земельної_ділянки">
+            <value>ОР,10</value>
+          </Data>
+          <Data name="#PZ_Підстава_набуття_права_власності_на_земельну_ділянку">
+            <value>РС,09.09.2009,1234,АА 0000</value>
+          </Data>
+          <Data name="#CV_Цільове_використання_земельної_ділянки_за_(УКЦВЗ)">
+            <value>1.1 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#PP_Паспортні_дані">
+            <value>804,ПВ,АА 935198</value>
+          </Data>
+          <Data name="#Кадастровий_номер">
+            <value>6123085200:01:001:1239</value>
+          </Data>
+          <Data name="#Тип_власності">
+            <value>Приватна власність</value>
+          </Data>
+          <Data name="#Цільове_призначення">
+            <value>01.01 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#Площа">
+            <value>2.511</value>
+          </Data>
+          <Data name="#Район">
+            <value>Козівський</value>
+          </Data>
+          <Data name="#КОАТУУ">
+            <value>6123085200</value>
+          </Data>
+          <Data name="#Зона">
+            <value>01</value>
+          </Data>
+          <Data name="#Квартал">
+            <value>002</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                25.06734755019567,49.40171513114058,0
+                25.06735344902914,49.40173022053539,0
+                25.06736499740058,49.40175949705561,0
+                25.06777950592749,49.40373221584713,0
+                25.06927803412003,49.40372451848871,0
+                25.06889582624915,49.40166237728875,0
+                25.06741775019522,49.4017127642017,0
+                25.06734755019567,49.40171513114058,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Объект ID405</name>
+        <styleUrl>#IN4_Ділянка</styleUrl>
+        <ExtendedData>
+          <Data name="~ZOrder">
+            <value>19</value>
+          </Data>
+          <Data name="#Шар">
+            <value>IN4_Ділянка</value>
+          </Data>
+          <Data name="#ПІБ_в_називному">
+            <value>Івасів Н. В.</value>
+          </Data>
+          <Data name="#КН_Кадастровий_номер_ЗД">
+            <value>:::</value>
+          </Data>
+          <Data name="#AD_Адреса_земельної_ділянки">
+            <value>Кривенська сільська рада</value>
+          </Data>
+          <Data name="#NM_!!!ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласн">
+            <value>Івасів Надія Володимирівна</value>
+          </Data>
+          <Data name="#PF_!!!Код_форми_власності_згідно_(УКФВЗ)">
+            <value>1.1 особиста</value>
+          </Data>
+          <Data name="#VP_Частка_у_спільній_власності_в_відсотках_%">
+            <value>1/1</value>
+          </Data>
+          <Data name="#AU_!!!Юридична_адреса_землевласника">
+            <value>село Криве</value>
+          </Data>
+          <Data name="#CM_Додаткова_інформація_про_ділянку_і/або_землевласника">
+            <value>ТОВ &amp;quot;МРІЯ ФАРМІНГ ГАЛИЧИНА&amp;quot; Суборенда</value>
+          </Data>
+          <Data name="#TM_Грошова_оцінка_земельної_ділянки">
+            <value>100000</value>
+          </Data>
+          <Data name="#KF_Ідентифікаційний_код_фізичної_особи">
+            <value>0000000000</value>
+          </Data>
+          <Data name="#PV_Умови_та_строк_надання_земельної_ділянки">
+            <value>ОР,10</value>
+          </Data>
+          <Data name="#PZ_Підстава_набуття_права_власності_на_земельну_ділянку">
+            <value>РС,09.09.2009,1234,АА 0000</value>
+          </Data>
+          <Data name="#CV_Цільове_використання_земельної_ділянки_за_(УКЦВЗ)">
+            <value>1.1 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#PP_Паспортні_дані">
+            <value>804,ПВ,АА 935198</value>
+          </Data>
+          <Data name="#Кадастровий_номер">
+            <value>6123085200:01:001:1123</value>
+          </Data>
+          <Data name="#Тип_власності">
+            <value>Приватна власність</value>
+          </Data>
+          <Data name="#Цільове_призначення">
+            <value>01.01 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#Площа">
+            <value>2.1363</value>
+          </Data>
+          <Data name="#Район">
+            <value>Козівський</value>
+          </Data>
+          <Data name="#КОАТУУ">
+            <value>6123085200</value>
+          </Data>
+          <Data name="#Зона">
+            <value>01</value>
+          </Data>
+          <Data name="#Квартал">
+            <value>002</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                25.06804719151157,49.39937577613567,0
+                25.06846545050628,49.40163205061322,0
+                25.06962962166401,49.40159233279007,0
+                25.06921046822583,49.39933182547261,0
+                25.06804719151157,49.39937577613567,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Объект ID347</name>
+        <styleUrl>#IN4_Ділянка</styleUrl>
+        <ExtendedData>
+          <Data name="~ZOrder">
+            <value>20</value>
+          </Data>
+          <Data name="#Шар">
+            <value>IN4_Ділянка</value>
+          </Data>
+          <Data name="#ПІБ_в_називному">
+            <value>Погоріла С. М.</value>
+          </Data>
+          <Data name="#КН_Кадастровий_номер_ЗД">
+            <value>:::</value>
+          </Data>
+          <Data name="#AD_Адреса_земельної_ділянки">
+            <value>Кривенська сільська рада</value>
+          </Data>
+          <Data name="#NM_!!!ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласн">
+            <value>Погоріла Стефанія Михайлівна</value>
+          </Data>
+          <Data name="#PF_!!!Код_форми_власності_згідно_(УКФВЗ)">
+            <value>1.1 особиста</value>
+          </Data>
+          <Data name="#VP_Частка_у_спільній_власності_в_відсотках_%">
+            <value>1/1</value>
+          </Data>
+          <Data name="#AU_!!!Юридична_адреса_землевласника">
+            <value>село Криве</value>
+          </Data>
+          <Data name="#CM_Додаткова_інформація_про_ділянку_і/або_землевласника">
+            <value>ТОВ &amp;quot;МРІЯ ФАРМІНГ ГАЛИЧИНА&amp;quot;</value>
+          </Data>
+          <Data name="#TM_Грошова_оцінка_земельної_ділянки">
+            <value>100000</value>
+          </Data>
+          <Data name="#KF_Ідентифікаційний_код_фізичної_особи">
+            <value>0000000000</value>
+          </Data>
+          <Data name="#PV_Умови_та_строк_надання_земельної_ділянки">
+            <value>ОР,10</value>
+          </Data>
+          <Data name="#PZ_Підстава_набуття_права_власності_на_земельну_ділянку">
+            <value>РС,09.09.2009,1234,АА 0000</value>
+          </Data>
+          <Data name="#CV_Цільове_використання_земельної_ділянки_за_(УКЦВЗ)">
+            <value>1.1 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#PP_Паспортні_дані">
+            <value>804,ПВ,АА 935198</value>
+          </Data>
+          <Data name="#Кадастровий_номер">
+            <value>6123085200:01:001:1139</value>
+          </Data>
+          <Data name="#Тип_власності">
+            <value>Приватна власність</value>
+          </Data>
+          <Data name="#Цільове_призначення">
+            <value>01.01 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#Площа">
+            <value>2.2211</value>
+          </Data>
+          <Data name="#Район">
+            <value>Козівський</value>
+          </Data>
+          <Data name="#КОАТУУ">
+            <value>6123085200</value>
+          </Data>
+          <Data name="#Зона">
+            <value>01</value>
+          </Data>
+          <Data name="#Квартал">
+            <value>002</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                25.07275809691467,49.4015304778262,0
+                25.07316132885152,49.40370472302074,0
+                25.07441497068248,49.40369825185472,0
+                25.07400487409939,49.40148795939952,0
+                25.07275809691467,49.4015304778262,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Объект ID406</name>
+        <styleUrl>#IN4_Ділянка</styleUrl>
+        <ExtendedData>
+          <Data name="~ZOrder">
+            <value>23</value>
+          </Data>
+          <Data name="#Шар">
+            <value>IN4_Ділянка</value>
+          </Data>
+          <Data name="#ПІБ_в_називному">
+            <value>Корнак І. П.</value>
+          </Data>
+          <Data name="#КН_Кадастровий_номер_ЗД">
+            <value>:::</value>
+          </Data>
+          <Data name="#NM_!!!ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласн">
+            <value>Корнак Іван Петрович</value>
+          </Data>
+          <Data name="#CM_Додаткова_інформація_про_ділянку_і/або_землевласника">
+            <value>ПП &amp;quot;КАЧАН-07&amp;quot;</value>
+          </Data>
+          <Data name="#Кадастровий_номер">
+            <value>6123085200:01:001:1260</value>
+          </Data>
+          <Data name="#Тип_власності">
+            <value>Приватна власність</value>
+          </Data>
+          <Data name="#Цільове_призначення">
+            <value>01.01 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#Площа">
+            <value>2.1381</value>
+          </Data>
+          <Data name="#Район">
+            <value>Козівський</value>
+          </Data>
+          <Data name="#КОАТУУ">
+            <value>6123085200</value>
+          </Data>
+          <Data name="#Зона">
+            <value>01</value>
+          </Data>
+          <Data name="#Квартал">
+            <value>002</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                25.0703739115465,49.39929155179933,0
+                25.06953583642866,49.3993195776079,0
+                25.06921046822583,49.39933182547261,0
+                25.06962962166401,49.40159233279007,0
+                25.07079324026428,49.40155259641288,0
+                25.0703739115465,49.39929155179933,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Объект ID379</name>
+        <styleUrl>#IN4_Ділянка</styleUrl>
+        <ExtendedData>
+          <Data name="~ZOrder">
+            <value>26</value>
+          </Data>
+          <Data name="#Шар">
+            <value>IN4_Ділянка</value>
+          </Data>
+          <Data name="#ПІБ_в_називному">
+            <value>Погоріла О. С.</value>
+          </Data>
+          <Data name="#КН_Кадастровий_номер_ЗД">
+            <value>:::</value>
+          </Data>
+          <Data name="#AD_Адреса_земельної_ділянки">
+            <value>Кривенська сільська рада</value>
+          </Data>
+          <Data name="#NM_!!!ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласн">
+            <value>Погоріла Ольга Степанівна</value>
+          </Data>
+          <Data name="#PF_!!!Код_форми_власності_згідно_(УКФВЗ)">
+            <value>1.1 особиста</value>
+          </Data>
+          <Data name="#VP_Частка_у_спільній_власності_в_відсотках_%">
+            <value>1/1</value>
+          </Data>
+          <Data name="#AU_!!!Юридична_адреса_землевласника">
+            <value>село Криве</value>
+          </Data>
+          <Data name="#CM_Додаткова_інформація_про_ділянку_і/або_землевласника">
+            <value>ТОВ &amp;quot;МРІЯ ФАРМІНГ ГАЛИЧИНА&amp;quot;</value>
+          </Data>
+          <Data name="#TM_Грошова_оцінка_земельної_ділянки">
+            <value>100000</value>
+          </Data>
+          <Data name="#KF_Ідентифікаційний_код_фізичної_особи">
+            <value>0000000000</value>
+          </Data>
+          <Data name="#PV_Умови_та_строк_надання_земельної_ділянки">
+            <value>ОР,10</value>
+          </Data>
+          <Data name="#PZ_Підстава_набуття_права_власності_на_земельну_ділянку">
+            <value>РС,09.09.2009,1234,АА 0000</value>
+          </Data>
+          <Data name="#CV_Цільове_використання_земельної_ділянки_за_(УКЦВЗ)">
+            <value>1.1 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#PP_Паспортні_дані">
+            <value>804,ПВ,АА 935198</value>
+          </Data>
+          <Data name="#Кадастровий_номер">
+            <value>6123085200:01:001:1182</value>
+          </Data>
+          <Data name="#Тип_власності">
+            <value>Приватна власність</value>
+          </Data>
+          <Data name="#Цільове_призначення">
+            <value>01.01 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#Площа">
+            <value>2.1303</value>
+          </Data>
+          <Data name="#Район">
+            <value>Козівський</value>
+          </Data>
+          <Data name="#КОАТУУ">
+            <value>6123085200</value>
+          </Data>
+          <Data name="#Зона">
+            <value>01</value>
+          </Data>
+          <Data name="#Квартал">
+            <value>002</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                25.07388826191388,49.39915987293286,364.33098304136449
+                25.07387440214816,49.39916124330755,364.26437665939695
+                25.07429652410455,49.40143295984926,5.17148205030305
+                25.0754594185987,49.4013932284595,0
+                25.07506598244707,49.39927270252533,0
+                25.07425702286588,49.39913344832693,389.36190334198004
+                25.07388826191388,49.39915987293286,364.33098304136449
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Объект ID409</name>
+        <styleUrl>#IN4_Ділянка</styleUrl>
+        <ExtendedData>
+          <Data name="~ZOrder">
+            <value>27</value>
+          </Data>
+          <Data name="#Шар">
+            <value>IN4_Ділянка</value>
+          </Data>
+          <Data name="#ПІБ_в_називному">
+            <value>Паласюк М. Б.</value>
+          </Data>
+          <Data name="#КН_Кадастровий_номер_ЗД">
+            <value>:::</value>
+          </Data>
+          <Data name="#NM_!!!ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласн">
+            <value>Паласюк Марія Богданівна</value>
+          </Data>
+          <Data name="#CM_Додаткова_інформація_про_ділянку_і/або_землевласника">
+            <value>ПП &amp;quot;КАЧАН-07&amp;quot;</value>
+          </Data>
+          <Data name="#Кадастровий_номер">
+            <value>6123085200:01:001:1124</value>
+          </Data>
+          <Data name="#Тип_власності">
+            <value>Приватна власність</value>
+          </Data>
+          <Data name="#Цільове_призначення">
+            <value>01.01 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#Площа">
+            <value>2.1375</value>
+          </Data>
+          <Data name="#Район">
+            <value>Козівський</value>
+          </Data>
+          <Data name="#КОАТУУ">
+            <value>6123085200</value>
+          </Data>
+          <Data name="#Зона">
+            <value>01</value>
+          </Data>
+          <Data name="#Квартал">
+            <value>002</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                25.07387443227952,49.39916124092285,364.26428417945935
+                25.07305643785976,49.3992421516309,391.3676649612146
+                25.07273212657699,49.3992505809872,391.62740725765856
+                25.07270891613606,49.39925118422776,374.78820061340892
+                25.07311842857324,49.40147319859345,8.9363637361847
+                25.07429652410455,49.40143295984926,5.17148206459005
+                25.07387443227952,49.39916124092285,364.26428417945935
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Объект ID348</name>
+        <styleUrl>#IN4_Ділянка</styleUrl>
+        <ExtendedData>
+          <Data name="~ZOrder">
+            <value>24</value>
+          </Data>
+          <Data name="#Шар">
+            <value>IN4_Ділянка</value>
+          </Data>
+          <Data name="#ПІБ_в_називному">
+            <value>Зима Г. М.</value>
+          </Data>
+          <Data name="#КН_Кадастровий_номер_ЗД">
+            <value>:::</value>
+          </Data>
+          <Data name="#AD_Адреса_земельної_ділянки">
+            <value>Кривенська сільська рада</value>
+          </Data>
+          <Data name="#NM_!!!ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласн">
+            <value>Зима Ганна Михайлівна</value>
+          </Data>
+          <Data name="#PF_!!!Код_форми_власності_згідно_(УКФВЗ)">
+            <value>1.1 особиста</value>
+          </Data>
+          <Data name="#VP_Частка_у_спільній_власності_в_відсотках_%">
+            <value>1/1</value>
+          </Data>
+          <Data name="#AU_!!!Юридична_адреса_землевласника">
+            <value>село Криве</value>
+          </Data>
+          <Data name="#CM_Додаткова_інформація_про_ділянку_і/або_землевласника">
+            <value>ТОВ &amp;quot;ГАЛИЧИНА ІНВЕСТ ГРУП&amp;quot;</value>
+          </Data>
+          <Data name="#TM_Грошова_оцінка_земельної_ділянки">
+            <value>100000</value>
+          </Data>
+          <Data name="#KF_Ідентифікаційний_код_фізичної_особи">
+            <value>0000000000</value>
+          </Data>
+          <Data name="#PV_Умови_та_строк_надання_земельної_ділянки">
+            <value>ОР,10</value>
+          </Data>
+          <Data name="#PZ_Підстава_набуття_права_власності_на_земельну_ділянку">
+            <value>РС,09.09.2009,1234,АА 0000</value>
+          </Data>
+          <Data name="#CV_Цільове_використання_земельної_ділянки_за_(УКЦВЗ)">
+            <value>1.1 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#PP_Паспортні_дані">
+            <value>804,ПВ,АА 935198</value>
+          </Data>
+          <Data name="#Кадастровий_номер">
+            <value>6123085200:01:001:1290</value>
+          </Data>
+          <Data name="#Тип_власності">
+            <value>Приватна власність</value>
+          </Data>
+          <Data name="#Цільове_призначення">
+            <value>01.01 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#Площа">
+            <value>2.2011</value>
+          </Data>
+          <Data name="#Район">
+            <value>Козівський</value>
+          </Data>
+          <Data name="#КОАТУУ">
+            <value>6123085200</value>
+          </Data>
+          <Data name="#Зона">
+            <value>01</value>
+          </Data>
+          <Data name="#Квартал">
+            <value>002</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                25.07400487409939,49.40148795939952,0
+                25.07525816538563,49.40144511552621,0
+                25.07564707517489,49.40368537765759,4.19518478438533
+                25.07441497068248,49.40369825185472,0.0009025046411
+                25.07400487409939,49.40148795939952,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Объект ID346</name>
+        <styleUrl>#IN4_Ділянка</styleUrl>
+        <ExtendedData>
+          <Data name="~ZOrder">
+            <value>25</value>
+          </Data>
+          <Data name="#Шар">
+            <value>IN4_Ділянка</value>
+          </Data>
+          <Data name="#ПІБ_в_називному">
+            <value>Дяківська А. М.</value>
+          </Data>
+          <Data name="#КН_Кадастровий_номер_ЗД">
+            <value>:::</value>
+          </Data>
+          <Data name="#NM_!!!ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласн">
+            <value>Дяківська Анастасія Михайлівна</value>
+          </Data>
+          <Data name="#CM_Додаткова_інформація_про_ділянку_і/або_землевласника">
+            <value>ПП &amp;quot;КАЧАН-07&amp;quot;</value>
+          </Data>
+          <Data name="#Кадастровий_номер">
+            <value>6123085200:01:001:1131</value>
+          </Data>
+          <Data name="#Тип_власності">
+            <value>Приватна власність</value>
+          </Data>
+          <Data name="#Цільове_призначення">
+            <value>01.01 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#Площа">
+            <value>2.2251</value>
+          </Data>
+          <Data name="#Район">
+            <value>Козівський</value>
+          </Data>
+          <Data name="#КОАТУУ">
+            <value>6123085200</value>
+          </Data>
+          <Data name="#Зона">
+            <value>01</value>
+          </Data>
+          <Data name="#Квартал">
+            <value>002</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                25.07275809691467,49.4015304778262,0
+                25.07146998854476,49.40156719926184,5.73907659021166
+                25.07186239364567,49.40371870931135,215.7452729460679
+                25.07316132885152,49.40370472302074,110.77640443137094
+                25.07275809691467,49.4015304778262,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Объект ID381</name>
+        <styleUrl>#IN4_Ділянка</styleUrl>
+        <ExtendedData>
+          <Data name="~ZOrder">
+            <value>12</value>
+          </Data>
+          <Data name="#Шар">
+            <value>IN4_Ділянка</value>
+          </Data>
+          <Data name="#ПІБ_в_називному">
+            <value>Улич В. Д.</value>
+          </Data>
+          <Data name="#КН_Кадастровий_номер_ЗД">
+            <value>:::</value>
+          </Data>
+          <Data name="#AD_Адреса_земельної_ділянки">
+            <value>Кривенська сільська рада</value>
+          </Data>
+          <Data name="#NM_!!!ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласн">
+            <value>Улич Василь Дмитрович</value>
+          </Data>
+          <Data name="#PF_!!!Код_форми_власності_згідно_(УКФВЗ)">
+            <value>1.1 особиста</value>
+          </Data>
+          <Data name="#VP_Частка_у_спільній_власності_в_відсотках_%">
+            <value>1/1</value>
+          </Data>
+          <Data name="#AU_!!!Юридична_адреса_землевласника">
+            <value>село Криве</value>
+          </Data>
+          <Data name="#CM_Додаткова_інформація_про_ділянку_і/або_землевласника">
+            <value>ТОВ &amp;quot;ГАЛИЧИНА ІНВЕСТ ГРУП&amp;quot;</value>
+          </Data>
+          <Data name="#TM_Грошова_оцінка_земельної_ділянки">
+            <value>100000</value>
+          </Data>
+          <Data name="#KF_Ідентифікаційний_код_фізичної_особи">
+            <value>0000000000</value>
+          </Data>
+          <Data name="#PV_Умови_та_строк_надання_земельної_ділянки">
+            <value>ОР,10</value>
+          </Data>
+          <Data name="#PZ_Підстава_набуття_права_власності_на_земельну_ділянку">
+            <value>РС,09.09.2009,1234,АА 0000</value>
+          </Data>
+          <Data name="#CV_Цільове_використання_земельної_ділянки_за_(УКЦВЗ)">
+            <value>1.1 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#PP_Паспортні_дані">
+            <value>804,ПВ,АА 935198</value>
+          </Data>
+          <Data name="#Кадастровий_номер">
+            <value>6123085200:01:001:1122</value>
+          </Data>
+          <Data name="#Тип_власності">
+            <value>Приватна власність</value>
+          </Data>
+          <Data name="#Цільове_призначення">
+            <value>01.01 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#Площа">
+            <value>2.0908</value>
+          </Data>
+          <Data name="#Район">
+            <value>Козівський</value>
+          </Data>
+          <Data name="#КОАТУУ">
+            <value>6123085200</value>
+          </Data>
+          <Data name="#Зона">
+            <value>01</value>
+          </Data>
+          <Data name="#Квартал">
+            <value>002</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                25.07652833141216,49.39968240357952,0
+                25.07683693985055,49.40134608648551,0
+                25.07847512004985,49.40129008516992,0
+                25.07863757751298,49.40017296628429,0
+                25.07652833141216,49.39968240357952,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Объект ID380</name>
+        <styleUrl>#IN4_Ділянка</styleUrl>
+        <ExtendedData>
+          <Data name="~ZOrder">
+            <value>13</value>
+          </Data>
+          <Data name="#Шар">
+            <value>IN4_Ділянка</value>
+          </Data>
+          <Data name="#ПІБ_в_називному">
+            <value>Стецько С. П.</value>
+          </Data>
+          <Data name="#КН_Кадастровий_номер_ЗД">
+            <value>:::</value>
+          </Data>
+          <Data name="#AD_Адреса_земельної_ділянки">
+            <value>Кривенська сільська рада</value>
+          </Data>
+          <Data name="#NM_!!!ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласн">
+            <value>Стецько Софія Петрівна</value>
+          </Data>
+          <Data name="#PF_!!!Код_форми_власності_згідно_(УКФВЗ)">
+            <value>1.1 особиста</value>
+          </Data>
+          <Data name="#VP_Частка_у_спільній_власності_в_відсотках_%">
+            <value>1/1</value>
+          </Data>
+          <Data name="#AU_!!!Юридична_адреса_землевласника">
+            <value>село Криве</value>
+          </Data>
+          <Data name="#CM_Додаткова_інформація_про_ділянку_і/або_землевласника">
+            <value>ТОВ &amp;quot;ГАЛИЧИНА ІНВЕСТ ГРУП&amp;quot;</value>
+          </Data>
+          <Data name="#TM_Грошова_оцінка_земельної_ділянки">
+            <value>100000</value>
+          </Data>
+          <Data name="#KF_Ідентифікаційний_код_фізичної_особи">
+            <value>0000000000</value>
+          </Data>
+          <Data name="#PV_Умови_та_строк_надання_земельної_ділянки">
+            <value>ОР,10</value>
+          </Data>
+          <Data name="#PZ_Підстава_набуття_права_власності_на_земельну_ділянку">
+            <value>РС,09.09.2009,1234,АА 0000</value>
+          </Data>
+          <Data name="#CV_Цільове_використання_земельної_ділянки_за_(УКЦВЗ)">
+            <value>1.1 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#PP_Паспортні_дані">
+            <value>804,ПВ,АА 935198</value>
+          </Data>
+          <Data name="#Кадастровий_номер">
+            <value>6123085200:01:001:1134</value>
+          </Data>
+          <Data name="#Тип_власності">
+            <value>Приватна власність</value>
+          </Data>
+          <Data name="#Цільове_призначення">
+            <value>01.01 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#Площа">
+            <value>2.1237</value>
+          </Data>
+          <Data name="#Район">
+            <value>Козівський</value>
+          </Data>
+          <Data name="#КОАТУУ">
+            <value>6123085200</value>
+          </Data>
+          <Data name="#Зона">
+            <value>01</value>
+          </Data>
+          <Data name="#Квартал">
+            <value>002</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                25.07652833141216,49.39968240357952,0
+                25.07648002035441,49.39967119828616,0
+                25.075845833531,49.39949029406611,0
+                25.0752240965028,49.39929830008531,0
+                25.07506598244707,49.39927270252533,0
+                25.0754594185987,49.4013932284595,0
+                25.07683693985055,49.40134608648551,0
+                25.07652833141216,49.39968240357952,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Объект ID556</name>
+        <styleUrl>#IN4_Ділянка</styleUrl>
+        <ExtendedData>
+          <Data name="~ZOrder">
+            <value>10</value>
+          </Data>
+          <Data name="#Шар">
+            <value>IN4_Ділянка</value>
+          </Data>
+          <Data name="#ПІБ_в_називному">
+            <value>Цокало І. М.</value>
+          </Data>
+          <Data name="#КН_Кадастровий_номер_ЗД">
+            <value>:::</value>
+          </Data>
+          <Data name="#AD_Адреса_земельної_ділянки">
+            <value>Кривенська сільська рада</value>
+          </Data>
+          <Data name="#NM_!!!ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласн">
+            <value>Цокало Ігор Михайлович</value>
+          </Data>
+          <Data name="#PF_!!!Код_форми_власності_згідно_(УКФВЗ)">
+            <value>1.1 особиста</value>
+          </Data>
+          <Data name="#VP_Частка_у_спільній_власності_в_відсотках_%">
+            <value>1/1</value>
+          </Data>
+          <Data name="#AU_!!!Юридична_адреса_землевласника">
+            <value>село Криве</value>
+          </Data>
+          <Data name="#CM_Додаткова_інформація_про_ділянку_і/або_землевласника">
+            <value>ПП &amp;quot;Качан-07&amp;quot; не зареєстрована</value>
+          </Data>
+          <Data name="#TM_Грошова_оцінка_земельної_ділянки">
+            <value>100000</value>
+          </Data>
+          <Data name="#KF_Ідентифікаційний_код_фізичної_особи">
+            <value>0000000000</value>
+          </Data>
+          <Data name="#PV_Умови_та_строк_надання_земельної_ділянки">
+            <value>ОР,10</value>
+          </Data>
+          <Data name="#PZ_Підстава_набуття_права_власності_на_земельну_ділянку">
+            <value>РС,09.09.2009,1234,АА 0000</value>
+          </Data>
+          <Data name="#CV_Цільове_використання_земельної_ділянки_за_(УКЦВЗ)">
+            <value>1.1 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#PP_Паспортні_дані">
+            <value>804,ПВ,АА 935198</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                25.06742265452585,49.39940357014434,0
+                25.06687631872329,49.39942788114037,0
+                25.06728642036722,49.40164043904241,0
+                25.06785280628698,49.40163641088592,0
+                25.06742265452585,49.39940357014434,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Объект ID350</name>
+        <styleUrl>#IN4_Ділянка</styleUrl>
+        <ExtendedData>
+          <Data name="~ZOrder">
+            <value>11</value>
+          </Data>
+          <Data name="#Шар">
+            <value>IN4_Ділянка</value>
+          </Data>
+          <Data name="#ПІБ_в_називному">
+            <value>Дяківський І. Я.</value>
+          </Data>
+          <Data name="#КН_Кадастровий_номер_ЗД">
+            <value>:::</value>
+          </Data>
+          <Data name="#AD_Адреса_земельної_ділянки">
+            <value>Кривенська сільська рада</value>
+          </Data>
+          <Data name="#NM_!!!ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласн">
+            <value>Дяківський Іван Ярославович</value>
+          </Data>
+          <Data name="#PF_!!!Код_форми_власності_згідно_(УКФВЗ)">
+            <value>1.1 особиста</value>
+          </Data>
+          <Data name="#VP_Частка_у_спільній_власності_в_відсотках_%">
+            <value>1/1</value>
+          </Data>
+          <Data name="#AU_!!!Юридична_адреса_землевласника">
+            <value>село Криве</value>
+          </Data>
+          <Data name="#CM_Додаткова_інформація_про_ділянку_і/або_землевласника">
+            <value>ТОВ &amp;quot;МРІЯ ФАРМІНГ ГАЛИЧИНА&amp;quot;</value>
+          </Data>
+          <Data name="#TM_Грошова_оцінка_земельної_ділянки">
+            <value>100000</value>
+          </Data>
+          <Data name="#KF_Ідентифікаційний_код_фізичної_особи">
+            <value>0000000000</value>
+          </Data>
+          <Data name="#PV_Умови_та_строк_надання_земельної_ділянки">
+            <value>ОР,10</value>
+          </Data>
+          <Data name="#PZ_Підстава_набуття_права_власності_на_земельну_ділянку">
+            <value>РС,09.09.2009,1234,АА 0000</value>
+          </Data>
+          <Data name="#CV_Цільове_використання_земельної_ділянки_за_(УКЦВЗ)">
+            <value>1.1 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#PP_Паспортні_дані">
+            <value>804,ПВ,АА 935198</value>
+          </Data>
+          <Data name="#Кадастровий_номер">
+            <value>6123085200:01:001:1023</value>
+          </Data>
+          <Data name="#Тип_власності">
+            <value>Приватна власність</value>
+          </Data>
+          <Data name="#Цільове_призначення">
+            <value>01.01 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#Площа">
+            <value>2.1508</value>
+          </Data>
+          <Data name="#Район">
+            <value>Козівський</value>
+          </Data>
+          <Data name="#КОАТУУ">
+            <value>6123085200</value>
+          </Data>
+          <Data name="#Зона">
+            <value>01</value>
+          </Data>
+          <Data name="#Квартал">
+            <value>002</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                25.07683480047211,49.40334070613505,0
+                25.07740112842377,49.4031539050203,0
+                25.07835772827809,49.4020964626381,0
+                25.07846857805152,49.40133532327293,0
+                25.07647525787104,49.40140349602585,0
+                25.07683480047211,49.40334070613505,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Объект ID349</name>
+        <styleUrl>#IN4_Ділянка</styleUrl>
+        <ExtendedData>
+          <Data name="~ZOrder">
+            <value>14</value>
+          </Data>
+          <Data name="#Шар">
+            <value>IN4_Ділянка</value>
+          </Data>
+          <Data name="#ПІБ_в_називному">
+            <value>Костів С. П.</value>
+          </Data>
+          <Data name="#КН_Кадастровий_номер_ЗД">
+            <value>:::</value>
+          </Data>
+          <Data name="#NM_!!!ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласн">
+            <value>Костів Софія Павлівна</value>
+          </Data>
+          <Data name="#CM_Додаткова_інформація_про_ділянку_і/або_землевласника">
+            <value>ПП &amp;quot;КАЧАН-07&amp;quot;</value>
+          </Data>
+          <Data name="#Кадастровий_номер">
+            <value>6123085200:01:001:1256</value>
+          </Data>
+          <Data name="#Тип_власності">
+            <value>Приватна власність</value>
+          </Data>
+          <Data name="#Цільове_призначення">
+            <value>01.01 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#Площа">
+            <value>2.1507</value>
+          </Data>
+          <Data name="#Район">
+            <value>Козівський</value>
+          </Data>
+          <Data name="#КОАТУУ">
+            <value>6123085200</value>
+          </Data>
+          <Data name="#Зона">
+            <value>01</value>
+          </Data>
+          <Data name="#Квартал">
+            <value>002</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                25.07647525787104,49.40140349602585,0
+                25.07525816538563,49.40144511552621,0
+                25.07564707517489,49.40368537765759,4.19518478438533
+                25.07586231679072,49.40367583138405,316.86615633572133
+                25.07683480047211,49.40334070613505,21.98207607021177
+                25.07647525787104,49.40140349602585,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Объект ID408</name>
+        <styleUrl>#IN4_Ділянка</styleUrl>
+        <ExtendedData>
+          <Data name="~ZOrder">
+            <value>17</value>
+          </Data>
+          <Data name="#Шар">
+            <value>IN4_Ділянка</value>
+          </Data>
+          <Data name="#ПІБ_в_називному">
+            <value>Питель С. П.</value>
+          </Data>
+          <Data name="#КН_Кадастровий_номер_ЗД">
+            <value>:::</value>
+          </Data>
+          <Data name="#AD_Адреса_земельної_ділянки">
+            <value>Кривенська сільська рада</value>
+          </Data>
+          <Data name="#NM_!!!ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласн">
+            <value>Питель Степанія Павлівна</value>
+          </Data>
+          <Data name="#PF_!!!Код_форми_власності_згідно_(УКФВЗ)">
+            <value>1.1 особиста</value>
+          </Data>
+          <Data name="#VP_Частка_у_спільній_власності_в_відсотках_%">
+            <value>1/1</value>
+          </Data>
+          <Data name="#AU_!!!Юридична_адреса_землевласника">
+            <value>село Криве</value>
+          </Data>
+          <Data name="#CM_Додаткова_інформація_про_ділянку_і/або_землевласника">
+            <value>Відсутня інформація про оренду</value>
+          </Data>
+          <Data name="#TM_Грошова_оцінка_земельної_ділянки">
+            <value>100000</value>
+          </Data>
+          <Data name="#KF_Ідентифікаційний_код_фізичної_особи">
+            <value>0000000000</value>
+          </Data>
+          <Data name="#PV_Умови_та_строк_надання_земельної_ділянки">
+            <value>ОР,10</value>
+          </Data>
+          <Data name="#PZ_Підстава_набуття_права_власності_на_земельну_ділянку">
+            <value>РС,09.09.2009,1234,АА 0000</value>
+          </Data>
+          <Data name="#CV_Цільове_використання_земельної_ділянки_за_(УКЦВЗ)">
+            <value>1.1 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#PP_Паспортні_дані">
+            <value>804,ПВ,АА 935198</value>
+          </Data>
+          <Data name="#Кадастровий_номер">
+            <value>6123085200:01:002:0005</value>
+          </Data>
+          <Data name="#Тип_власності">
+            <value>Приватна власність</value>
+          </Data>
+          <Data name="#Цільове_призначення">
+            <value>01.01 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#Площа">
+            <value>2.1381</value>
+          </Data>
+          <Data name="#Район">
+            <value>Козівський</value>
+          </Data>
+          <Data name="#КОАТУУ">
+            <value>6123085200</value>
+          </Data>
+          <Data name="#Зона">
+            <value>01</value>
+          </Data>
+          <Data name="#Квартал">
+            <value>002</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                25.07270891613606,49.39925118422776,374.78820061340897
+                25.07156391367321,49.39928093709347,392.56303337120949
+                25.0715433636324,49.3992816366716,392.57426766908014
+                25.07195713269994,49.40151285170851,1.19471031352248
+                25.07311842857324,49.40147319859345,8.9363637361847
+                25.07270891613606,49.39925118422776,374.78820061340897
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Объект ID344</name>
+        <styleUrl>#IN4_Ділянка</styleUrl>
+        <ExtendedData>
+          <Data name="~ZOrder">
+            <value>18</value>
+          </Data>
+          <Data name="#Шар">
+            <value>IN4_Ділянка</value>
+          </Data>
+          <Data name="#ПІБ_в_називному">
+            <value>Сабат М. М.</value>
+          </Data>
+          <Data name="#КН_Кадастровий_номер_ЗД">
+            <value>:::</value>
+          </Data>
+          <Data name="#AD_Адреса_земельної_ділянки">
+            <value>Кривенська сільська рада</value>
+          </Data>
+          <Data name="#NM_!!!ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласн">
+            <value>Сабат Мирослава Михайлівна</value>
+          </Data>
+          <Data name="#PF_!!!Код_форми_власності_згідно_(УКФВЗ)">
+            <value>1.1 особиста</value>
+          </Data>
+          <Data name="#VP_Частка_у_спільній_власності_в_відсотках_%">
+            <value>1/1</value>
+          </Data>
+          <Data name="#AU_!!!Юридична_адреса_землевласника">
+            <value>село Криве</value>
+          </Data>
+          <Data name="#CM_Додаткова_інформація_про_ділянку_і/або_землевласника">
+            <value>ФГ &amp;quot;Зернятко-2007&amp;quot;</value>
+          </Data>
+          <Data name="#TM_Грошова_оцінка_земельної_ділянки">
+            <value>100000</value>
+          </Data>
+          <Data name="#KF_Ідентифікаційний_код_фізичної_особи">
+            <value>0000000000</value>
+          </Data>
+          <Data name="#PV_Умови_та_строк_надання_земельної_ділянки">
+            <value>ОР,10</value>
+          </Data>
+          <Data name="#PZ_Підстава_набуття_права_власності_на_земельну_ділянку">
+            <value>РС,09.09.2009,1234,АА 0000</value>
+          </Data>
+          <Data name="#CV_Цільове_використання_земельної_ділянки_за_(УКЦВЗ)">
+            <value>1.1 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#PP_Паспортні_дані">
+            <value>804,ПВ,АА 935198</value>
+          </Data>
+          <Data name="#Кадастровий_номер">
+            <value>6123085200:01:001:1025</value>
+          </Data>
+          <Data name="#Тип_власності">
+            <value>Приватна власність</value>
+          </Data>
+          <Data name="#Цільове_призначення">
+            <value>01.01 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#Площа">
+            <value>2.1974</value>
+          </Data>
+          <Data name="#Район">
+            <value>Козівський</value>
+          </Data>
+          <Data name="#КОАТУУ">
+            <value>6123085200</value>
+          </Data>
+          <Data name="#Зона">
+            <value>01</value>
+          </Data>
+          <Data name="#Квартал">
+            <value>002</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                25.06889582624915,49.40166237728875,0
+                25.06927803412003,49.40372451848871,0
+                25.07032115688487,49.40371926325245,0
+                25.0703307934132,49.40371921465988,0
+                25.07058459105243,49.40371793458612,0
+                25.07019529608967,49.40161803464601,0
+                25.06889582624915,49.40166237728875,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Объект ID404</name>
+        <styleUrl>#IN4_Ділянка</styleUrl>
+        <ExtendedData>
+          <Data name="~ZOrder">
+            <value>15</value>
+          </Data>
+          <Data name="#Шар">
+            <value>IN4_Ділянка</value>
+          </Data>
+          <Data name="#ПІБ_в_називному">
+            <value>Стецько Г. Б.</value>
+          </Data>
+          <Data name="#КН_Кадастровий_номер_ЗД">
+            <value>:::</value>
+          </Data>
+          <Data name="#AD_Адреса_земельної_ділянки">
+            <value>Кривенська сільська рада</value>
+          </Data>
+          <Data name="#NM_!!!ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласн">
+            <value>Стецько Ганна Богданівна</value>
+          </Data>
+          <Data name="#PF_!!!Код_форми_власності_згідно_(УКФВЗ)">
+            <value>1.1 особиста</value>
+          </Data>
+          <Data name="#VP_Частка_у_спільній_власності_в_відсотках_%">
+            <value>1/1</value>
+          </Data>
+          <Data name="#AU_!!!Юридична_адреса_землевласника">
+            <value>село Криве</value>
+          </Data>
+          <Data name="#CM_Додаткова_інформація_про_ділянку_і/або_землевласника">
+            <value>ТОВ &amp;quot;МРІЯ ФАРМІНГ ГАЛИЧИНА&amp;quot;</value>
+          </Data>
+          <Data name="#TM_Грошова_оцінка_земельної_ділянки">
+            <value>100000</value>
+          </Data>
+          <Data name="#KF_Ідентифікаційний_код_фізичної_особи">
+            <value>0000000000</value>
+          </Data>
+          <Data name="#PV_Умови_та_строк_надання_земельної_ділянки">
+            <value>ОР,10</value>
+          </Data>
+          <Data name="#PZ_Підстава_набуття_права_власності_на_земельну_ділянку">
+            <value>РС,09.09.2009,1234,АА 0000</value>
+          </Data>
+          <Data name="#CV_Цільове_використання_земельної_ділянки_за_(УКЦВЗ)">
+            <value>1.1 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#PP_Паспортні_дані">
+            <value>804,ПВ,АА 935198</value>
+          </Data>
+          <Data name="#Кадастровий_номер">
+            <value>6123085200:01:001:1237</value>
+          </Data>
+          <Data name="#Тип_власності">
+            <value>Приватна власність</value>
+          </Data>
+          <Data name="#Цільове_призначення">
+            <value>01.01 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#Площа">
+            <value>1.1473</value>
+          </Data>
+          <Data name="#Район">
+            <value>Козівський</value>
+          </Data>
+          <Data name="#КОАТУУ">
+            <value>6123085200</value>
+          </Data>
+          <Data name="#Зона">
+            <value>01</value>
+          </Data>
+          <Data name="#Квартал">
+            <value>002</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                25.06742265452585,49.39940357014434,0
+                25.06785280628698,49.40163641088592,0
+                25.06846545050628,49.40163205061322,0
+                25.06804719151157,49.39937577613567,0
+                25.06742265452585,49.39940357014434,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Объект ID345</name>
+        <styleUrl>#IN4_Ділянка</styleUrl>
+        <ExtendedData>
+          <Data name="~ZOrder">
+            <value>16</value>
+          </Data>
+          <Data name="#Шар">
+            <value>IN4_Ділянка</value>
+          </Data>
+          <Data name="#ПІБ_в_називному">
+            <value>Питель В. М.</value>
+          </Data>
+          <Data name="#КН_Кадастровий_номер_ЗД">
+            <value>:::</value>
+          </Data>
+          <Data name="#AD_Адреса_земельної_ділянки">
+            <value>Кривенська сільська рада</value>
+          </Data>
+          <Data name="#NM_!!!ПІБ_фізичної_або_назва_юридичної_особи,_які_є_землевласн">
+            <value>Питель Володимир Миколайович</value>
+          </Data>
+          <Data name="#PF_!!!Код_форми_власності_згідно_(УКФВЗ)">
+            <value>1.1 особиста</value>
+          </Data>
+          <Data name="#VP_Частка_у_спільній_власності_в_відсотках_%">
+            <value>1/1</value>
+          </Data>
+          <Data name="#AU_!!!Юридична_адреса_землевласника">
+            <value>село Криве</value>
+          </Data>
+          <Data name="#CM_Додаткова_інформація_про_ділянку_і/або_землевласника">
+            <value>Відсутня інформація про оренду</value>
+          </Data>
+          <Data name="#TM_Грошова_оцінка_земельної_ділянки">
+            <value>100000</value>
+          </Data>
+          <Data name="#KF_Ідентифікаційний_код_фізичної_особи">
+            <value>0000000000</value>
+          </Data>
+          <Data name="#PV_Умови_та_строк_надання_земельної_ділянки">
+            <value>ОР,10</value>
+          </Data>
+          <Data name="#PZ_Підстава_набуття_права_власності_на_земельну_ділянку">
+            <value>РС,09.09.2009,1234,АА 0000</value>
+          </Data>
+          <Data name="#CV_Цільове_використання_земельної_ділянки_за_(УКЦВЗ)">
+            <value>1.1 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#PP_Паспортні_дані">
+            <value>804,ПВ,АА 935198</value>
+          </Data>
+          <Data name="#Кадастровий_номер">
+            <value>6123085200:01:002:0006</value>
+          </Data>
+          <Data name="#Тип_власності">
+            <value>Приватна власність</value>
+          </Data>
+          <Data name="#Цільове_призначення">
+            <value>01.01 Для ведення товарного сільськогосподарського виробництва</value>
+          </Data>
+          <Data name="#Площа">
+            <value>2.2253</value>
+          </Data>
+          <Data name="#Район">
+            <value>Козівський</value>
+          </Data>
+          <Data name="#КОАТУУ">
+            <value>6123085200</value>
+          </Data>
+          <Data name="#Зона">
+            <value>01</value>
+          </Data>
+          <Data name="#Квартал">
+            <value>002</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                25.07058459105243,49.40371793458612,14.13178210107915
+                25.07186239364567,49.40371870931135,204.52438308838903
+                25.07146998854476,49.40156719926184,5.61566095224339
+                25.07019529608967,49.40161803464601,0
+                25.07058459105243,49.40371793458612,14.13178210107915
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
